@@ -55,8 +55,5 @@ CMD ss-server -s $SERVER_ADDR \
               -k ${PASSWORD:-$(hostname)} \
               -m $METHOD \
               -t $TIMEOUT \
-              --fast-open \
-              -d $DNS_ADDR \
-              -d $DNS_ADDR_2 \
               -u \
               $ARGS
